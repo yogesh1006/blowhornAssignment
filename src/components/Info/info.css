@@ -2,7 +2,6 @@
 .section-three .section-div-one{
     display:flex;
     flex-direction:column;
-    border:1px solid green;
     gap:1rem;
     margin:1rem 0;
   }

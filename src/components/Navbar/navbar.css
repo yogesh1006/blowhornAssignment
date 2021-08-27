@@ -25,7 +25,7 @@ nav {
 #hamnav input:checked ~ #hamitems {
   display: block;
   padding: 1rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 @media screen and (min-width: 768px) {
