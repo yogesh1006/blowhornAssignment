@@ -1,0 +1,93 @@
+/* nav */
+nav {
+  padding: 1.5rem;
+}
+
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+/* (B) SHOW HAMBURGER ICON */
+#hamnav label {
+  display: inline-block;
+  color: white;
+  background: #a02620;
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/* (C) TOGGLE SHOW/HIDE MENU */
+#hamitems {
+  display: none;
+}
+#hamnav input:checked ~ #hamitems {
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    border-bottom: 1px solid grey;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+  }
+  .row {
+    display: flex;
+  }
+  /* (B) HORIZONTAL MENU ITEMS */
+  #hamitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #hamitems i {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav_items {
+    font-size: 0.8rem;
+  }
+
+  #hamitems a:hover {
+    color: blue;
+  }
+  .nav_items + .nav_items {
+    margin-left: 0.5rem;
+  }
+
+  .nav_tabs {
+    color: grey;
+  }
+
+  .links {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  #hamitems .links .active {
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+    padding: 0.5rem 0.8rem;
+  }
+  #hamitems a {
+    padding: 10px;
+    color: grey;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 350;
+  }
+
+  #hamnav label,
+  #hamburger {
+    display: none;
+  }
+}

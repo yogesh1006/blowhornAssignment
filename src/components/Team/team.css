@@ -1,0 +1,60 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  text-align: center;
+  margin: 01rem;
+}
+.social-icons {
+  color: grey;
+}
+.mg-2 {
+  margin: 0.2rem;
+}
+.team-heading {
+  max-width: 50rem;
+  text-align: left;
+  margin: 0 3rem;
+}
+
+.team-heading h2 {
+  font-size: 3rem;
+}
+
+.profile-info{
+ margin-top:1rem;
+ display:flex;
+ flex-direction:column;
+}
+.img-div {
+  min-width: 15rem;
+  min-height: 15rem;
+  max-width: 15rem;
+  max-height: 16rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f8fcb2e;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.profile-img {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .team-heading h2 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,41 @@
+/* section two */
+.section-two .section-head{
+    text-align:center;
+    color:grey;
+    font-size:0.7rem;
+  }
+  
+  .logos{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+  }
+  
+  .logos img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section-head{
+        text-align:center;
+        color:grey;
+        text-transform:uppercase;
+        font-size:0.57rem;
+        letter-spacing:1px;
+      }
+    
+      .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+      }
+      .logos img {
+        max-width: 100px;
+        width: 100%;
+        height: auto;
+      }
+    
+  }
