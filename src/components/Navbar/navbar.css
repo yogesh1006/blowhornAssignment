@@ -2,15 +2,23 @@
 nav {
   padding: 1.5rem;
   z-index: 10;
-    position: sticky;
-    top: 0;
-    background-color: #fff;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
 
 #hamitems a {
   box-sizing: border-box;
   display: block;
   width: 100%;
+}
+
+#hamitems a:hover {
+  color: blue;
+}
+
+#hamitems .row .logo {
+  text-align: center;
 }
 /*SHOW HAMBURGER ICON */
 #hamnav label {
@@ -29,12 +37,12 @@ nav {
 #hamnav input:checked ~ #hamitems {
   display: block;
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
 }
 #hamitems i {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 #hamitems a {
   padding: 10px;
@@ -49,7 +57,7 @@ nav {
   border-radius: 25px;
   color: white;
   padding: 0.5rem;
-  margin-top:0.5rem;
+  margin-top: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {

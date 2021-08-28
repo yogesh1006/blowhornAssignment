@@ -10,7 +10,7 @@ const Navbar = () => {
       <input type="checkbox" id="hamburger" style={{ visibility: "hidden" }} />
       <div id="hamitems">
         <div className="row">
-          <h4>nullBrains.</h4>
+          <h4 className="logo">nullBrains.</h4>
         </div>
         <div className="nav_tabs">
           <ul className="row">
