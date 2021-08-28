@@ -1,7 +1,10 @@
 /* nav */
 nav {
   padding: 1.5rem;
-  z-index:10;
+  z-index: 10;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 #hamitems a {
@@ -27,6 +30,26 @@ nav {
   display: block;
   padding: 1rem;
   border: 1px solid black;
+}
+#hamitems i {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+#hamitems a {
+  padding: 10px;
+  color: grey;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 350;
+}
+#hamitems .links .active {
+  background-color: blue;
+  border-radius: 25px;
+  color: white;
+  padding: 0.5rem;
+  margin-top:0.5rem;
 }
 
 @media screen and (min-width: 768px) {
