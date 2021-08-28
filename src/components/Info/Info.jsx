@@ -19,7 +19,7 @@ const Info = () => {
           <ul>
             <li>
               <span>
-                <i class="fas fa-circle "></i>
+                <i className="fas fa-circle "></i>
               </span>
               Maximaize productivity and growth
             </li>
@@ -27,7 +27,7 @@ const Info = () => {
             <li>
               {" "}
               <span>
-                <i class="fas fa-circle "></i>
+                <i className="fas fa-circle "></i>
               </span>
               Speed past your competition
             </li>
@@ -35,7 +35,7 @@ const Info = () => {
             <li>
               {" "}
               <span>
-                <i class="fas fa-circle "></i>
+                <i className="fas fa-circle "></i>
               </span>
               Learn the top techniques
             </li>
@@ -53,7 +53,7 @@ const Info = () => {
             <li>
               {" "}
               <span>
-                <i class="fas fa-circle "></i>
+                <i className="fas fa-circle "></i>
               </span>
               Maximaize productivity and growth
             </li>
@@ -61,7 +61,7 @@ const Info = () => {
             <li>
               {" "}
               <span>
-                <i class="fas fa-circle "></i>
+                <i className="fas fa-circle "></i>
               </span>
               Speed past your competition
             </li>
@@ -69,7 +69,7 @@ const Info = () => {
             <li>
               {" "}
               <span>
-                <i class="fas fa-circle "></i>
+                <i className="fas fa-circle "></i>
               </span>
               Learn the top techniques
             </li>
