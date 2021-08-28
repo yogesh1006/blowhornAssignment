@@ -16,7 +16,7 @@ const Info = () => {
             Build an atmosphere that creates productivity in organization and
             your company culture.
           </h5>
-          <ul>
+          <ul className="myhero-points">
             <li>
               <span>
                 <i className="fas fa-circle "></i>
@@ -49,7 +49,7 @@ const Info = () => {
             save time and money with our revolutionary services. we are the
             leaders in the industry.{" "}
           </h5>
-          <ul>
+          <ul className="myhero-points">
             <li>
               {" "}
               <span>

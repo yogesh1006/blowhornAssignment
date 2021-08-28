@@ -1,6 +1,7 @@
 /* nav */
 nav {
   padding: 1.5rem;
+  z-index:10;
 }
 
 #hamitems a {
@@ -8,24 +9,24 @@ nav {
   display: block;
   width: 100%;
 }
-/* (B) SHOW HAMBURGER ICON */
+/*SHOW HAMBURGER ICON */
 #hamnav label {
   display: inline-block;
   color: white;
-  background: #a02620;
+  background: blue;
   font-style: normal;
   font-size: 1.2em;
   padding: 10px;
 }
 
-/* (C) TOGGLE SHOW/HIDE MENU */
+/* TOGGLE SHOW/HIDE MENU */
 #hamitems {
   display: none;
 }
 #hamnav input:checked ~ #hamitems {
   display: block;
   padding: 1rem;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 @media screen and (min-width: 768px) {
@@ -39,7 +40,7 @@ nav {
   .row {
     display: flex;
   }
-  /* (B) HORIZONTAL MENU ITEMS */
+  /* HORIZONTAL MENU ITEMS */
   #hamitems {
     display: flex;
     justify-content: space-between;

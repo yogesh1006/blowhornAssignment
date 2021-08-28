@@ -82,10 +82,9 @@ const BlogCard = ({ url }) => {
       <img alt="" src={url} />
       <div className="blog-content-card">
         <span className="blog-badge bg-purple">FOOD</span>
-        <h5 >Refreshing Designs</h5>
-        <p style={{ fontSize: "0.8rem" ,letterSpacing:"2px",fontWeight:"300",textAlign:"start"}}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-          officiis veritatis autem.
+        <h5 >Eating For Productivity</h5>
+        <p style={{ fontSize: "0.8rem" ,letterSpacing:"2px",fontWeight:"normal",color:"grey",textAlign:"start"}}>
+          Learn how to be more disciplined in youe diet and how you can eat to maximize productivity.
         </p>
       </div>
     </div>

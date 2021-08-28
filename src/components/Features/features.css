@@ -19,7 +19,7 @@
     padding:3rem;
     background:rgba(208,218,236,.501960784313725);
     gap:1rem;
-    
+    border-radius:20px;
   }
   .section-four .items img{
     width:30px;
